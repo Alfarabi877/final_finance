@@ -1,0 +1,17 @@
+{
+  "name": "medrecord-safe",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Educational Solidity prototype for medical record access control",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "node": "hardhat node",
+    "deploy:local": "hardhat run scripts/deploy.js --network localhost"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "@openzeppelin/contracts": "^5.0.2",
+    "hardhat": "^2.22.17"
+  }
+}
